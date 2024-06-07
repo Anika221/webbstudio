@@ -1,0 +1,198 @@
+@import "./components/header";
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./components/main";
+@import "./components/footer";
+
+.main-ul {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    flex-wrap: wrap;
+}
+.main-li {
+    list-style: none;
+    background-color: var(--white2-color);
+    width: 100px;
+    height: 35px;
+    border-radius: 2px;
+}
+.main-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.main-link:hover{
+    color: var(--white-color);
+}
+.main-li:hover{
+    background-color: var(--blu-color);
+}
+.main-container{
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+    margin-left: 20px;
+}
+.main-box-wrap1 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap2 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(1\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap3 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(2\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap4 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(5\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap5 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(4\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap6 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(3\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap7 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(6\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap8 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(7\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-box-wrap9 {
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img\ \(8\).svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.main-overlay {
+    position: absolute;
+    transition: transform 600ms ease-in-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#2196F3E5;
+    transform: translateY(100%);
+}
+@keyframes wrapimag{
+    0%{
+        transform: translateY(100); 
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.main-box-wrap1:hover .main-overlay{
+   animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap2:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap3:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap4:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap5:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap6:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap7:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap8:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+.main-box-wrap9:hover .main-overlay{
+    animation: wrapimag 1500ms ease-in-out 100ms infinite;
+}
+
+.main-text {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.main-text1 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+.main-section-wrap{
+    background-color: var(--white2-color);
+}
+.main-overlay-text{
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-titlee {
+    padding-left: 10px;
+    padding-top: 10px;
+}

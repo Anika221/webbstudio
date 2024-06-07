@@ -1,0 +1,26 @@
+.footer{
+    background-color: var(--gray-color);
+    height: 150px;
+
+    &-tittle{
+        font-family: 'Raleway', sans-serif;
+        color: var(--white-color);
+        margin-left: 80px;
+        padding-top: 20px;
+    }
+
+    &-text2{
+        color: var(--white-color);
+        margin-left: 80px;
+        padding-top: 10px;
+    }
+
+    &-text{
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            color: var(--gray2-color);
+            margin-left: 80px;
+            padding-top: 10px;
+        }
+
+}
