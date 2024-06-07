@@ -1,21 +1,26 @@
-.footer{
+.footer_menu{
     background-color: var(--gray-color);
     height: 150px;
+    width: 100%;
 
-    &-tittle{
+    &--tittle{
         font-family: 'Raleway', sans-serif;
         color: var(--white-color);
         margin-left: 80px;
         padding-top: 20px;
     }
 
-    &-text2{
+    &--span{
+        color: var(--blu-color);
+    }
+
+    &--text2{
         color: var(--white-color);
         margin-left: 80px;
         padding-top: 10px;
     }
 
-    &-text{
+    &--text{
             font-family: 'Roboto', sans-serif;
             font-size: 14px;
             color: var(--gray2-color);

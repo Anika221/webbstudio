@@ -1,46 +1,46 @@
 .header {
   margin: 15px;
 }
-.header-div {
+.header_div {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.header-nav {
+.header_nav {
   display: flex;
   width: 80%;
   justify-content: space-around;
 }
-.header-title {
+.header_title {
   text-indent: 30px;
   font-family: "Raleway", sans-serif;
   color: var(--gray-color);
 }
-.header-list {
+.header_list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
-.header-list2 {
+.header_list2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
-.header-menu-item {
+.header_menu--item {
   font-family: "Roboto", sans-serif;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-link {
+.header_link {
   text-decoration: none;
   margin-right: 80px;
   color: var(--gray-color);
   position: relative;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link::after {
+.header_link::after {
   content: "";
   display: none;
   width: 100%;
@@ -50,17 +50,17 @@
   border-radius: 2px;
   top: 44px;
 }
-.header-link:hover::after {
+.header_link:hover::after {
   display: block;
 }
-.header-links {
+.header_links {
   text-decoration: none;
   margin-right: 80px;
   color: var(--gray2-color);
   position: relative;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-image {
+.header_image {
   width: 50px;
   height: 25px;
   color: var(--gray2-color);
@@ -131,18 +131,18 @@
 .main-buttonn:hover {
   background-color: #a7d8ff;
 }
-.main-section-title {
+.main_section--title {
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
-.main-section-text {
+.main_section--text {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: var(--gray2-color);
   padding-top: 10px;
 }
-.main-div-text {
+.main_div--text {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -151,20 +151,20 @@
   width: 300px;
   height: 98px;
 }
-.main-important {
+.main_important {
   padding-bottom: 20px;
   padding-top: 20px;
   display: flex;
   justify-content: center;
 }
-.main-about-section {
+.main_about--section {
   width: 90%;
   padding-left: 75px;
 }
-.main-about-container {
+.main_about--container {
   margin-top: 93px;
 }
-.main-about-title {
+.main_about--title {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
@@ -172,13 +172,13 @@
   margin-bottom: 50px;
   color: var(--gray-color);
 }
-.main-about-images {
+.main_about--images {
   display: flex;
   justify-content: space-between;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-.main-about-img {
+.main_about--img {
   height: 294px;
   width: 370px;
   background-repeat: no-repeat;
@@ -188,56 +188,56 @@
   text-align: center;
   position: relative;
 }
-.main-about-img:nth-child(1) {
+.main_about--img:nth-child(1) {
   background-image: url("../img/box-1.png");
   background-size: 100%;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .main-about-img:nth-child(1) {
+  .main_about--img:nth-child(1) {
     background-image: url("../img/box-1@2x.png");
   }
 }
-.main-about-img:nth-child(2) {
+.main_about--img:nth-child(2) {
   background-image: url("../img/box-2.png");
   background-size: 100%;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .main-about-img:nth-child(2) {
+  .main_about--img:nth-child(2) {
     background-image: url("../img/box-2@2x.png");
   }
 }
-.main-about-img:nth-child(3) {
+.main_about--img:nth-child(3) {
   background-image: url("../img/box-3.png");
   background-size: 100%;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .main-about-img:nth-child(3) {
+  .main_about--img:nth-child(3) {
     background-image: url("../img/box-3@2x.png");
   }
 }
-.main-about-span {
+.main_about--span {
   font-size: 16px;
   font-weight: 700;
   color: var(--white-color);
   top: 112%;
   position: absolute;
 }
-.main-our-team-section {
+.main_our_team--section {
   padding-bottom: 150px;
   margin-left: 75px;
 }
-.main-our-team-container {
+.main_our_team--container {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-.main-our-team-card {
+.main_our_team--card {
   padding-bottom: 30px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-.main-our-team-title {
+.main_our_team--title {
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 3%;
@@ -246,12 +246,12 @@
   margin-top: 100px;
   margin-bottom: 10px;
 }
-.main-our-team-img {
+.main_our_team--img {
   width: 270px;
   height: 260px;
   margin-top: 50px;
 }
-.main-our-team-text {
+.main_our_team--text {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 3%;
@@ -259,7 +259,7 @@
   text-align: center;
   margin-top: 30px;
 }
-.main-our-team-text2 {
+.main_our_team--text2 {
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 3%;
@@ -270,7 +270,7 @@
 .main-nav {
   margin-top: 60px;
 }
-.main-ul {
+.main-list {
   display: flex;
   font-size: 15px;
   justify-content: space-between;
@@ -279,7 +279,7 @@
   padding-right: 30vw;
   flex-wrap: wrap;
 }
-.main-li {
+.main-item {
   list-style: none;
   background-color: var(--white2-color);
   width: 100px;
@@ -297,7 +297,7 @@
 .main-link:hover {
   color: var(--white-color);
 }
-.main-li:hover {
+.main-item:hover {
   background-color: var(--blu-color);
 }
 .main-container {
@@ -471,22 +471,26 @@
   margin-top: 100px;
 }
 
-.footer {
+.footer_menu {
   background-color: var(--gray-color);
   height: 150px;
+  width: 100%;
 }
-.footer-tittle {
+.footer_menu--tittle {
   font-family: "Raleway", sans-serif;
   color: var(--white-color);
   margin-left: 80px;
   padding-top: 20px;
 }
-.footer-text2 {
+.footer_menu--span {
+  color: var(--blu-color);
+}
+.footer_menu--text2 {
   color: var(--white-color);
   margin-left: 80px;
   padding-top: 10px;
 }
-.footer-text {
+.footer_menu--text {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: var(--gray2-color);

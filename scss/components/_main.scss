@@ -50,20 +50,20 @@
         background-color:#a7d8ff ;
     }
 
-    &-section-title{
+    &_section--title{
         display: flex;
         justify-content: center;
         padding-top: 10px;
     }
 
-    &-section-text{
+    &_section--text{
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         color: var(--gray2-color);
         padding-top: 10px;
     }
     
-    &-div-text{
+    &_div--text{
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 500;
@@ -73,23 +73,23 @@
         height: 98px;
     }
 
-    &-important{
+    &_important{
         padding-bottom: 20px;
         padding-top: 20px;
         display: flex;
         justify-content: center;
     }
 
-    &-about-section{
+    &_about--section{
         width: 90%;
         padding-left: 75px;
     }
 
-    &-about-container{
+    &_about--container{
         margin-top: 93px;
     }
 
-    &-about-title{
+    &_about--title{
         text-align: center;
         font-weight: bold;
         font-size: 36px;
@@ -98,12 +98,12 @@
         color: var(--gray-color);
     }
 
-    &-about-images{
+    &_about--images{
         display: flex;
         justify-content: space-between;
         column-gap: 30px;
     }
-    &-about-img {
+    &_about--img {
         height: 294px;
         width: 370px;
         background-repeat: no-repeat;
@@ -113,7 +113,7 @@
         text-align: center;
         position: relative;
     }
-    &-about-img:nth-child(1) {
+    &_about--img:nth-child(1) {
         background-image: url("../img/box-1.png");
         background-size: 100%;
 
@@ -124,7 +124,7 @@
         }
     }
 
-    &-about-img:nth-child(2) {
+    &_about--img:nth-child(2) {
         background-image: url("../img/box-2.png");
         background-size: 100%;
 
@@ -135,7 +135,7 @@
         }
     }
 
-    &-about-img:nth-child(3) {
+    &_about--img:nth-child(3) {
         background-image: url("../img/box-3.png");
         background-size: 100%;
 
@@ -146,7 +146,7 @@
         }
     }
 
-    &-about-span {
+    &_about--span {
         font-size: 16px;
         font-weight: 700;
         color: var(--white-color);
@@ -154,24 +154,24 @@
         position: absolute;  
     }
 
-    &-our-team-section {
+    &_our_team--section {
         padding-bottom: 150px;
         margin-left: 75px;
     }
 
-    &-our-team-container {
+    &_our_team--container {
         margin: 0 auto;
         padding: 0 15px;
         display: flex;
         column-gap: 10px;
     }
 
-    &-our-team-card {
+    &_our_team--card {
         padding-bottom: 30px;
         box-shadow: 1px 1px 1px 1px #00000033;
     }
 
-    &-our-team-title {
+    &_our_team--title {
         font-size: 36px;
         font-weight: bold;
         letter-spacing: 3%;
@@ -181,13 +181,13 @@
         margin-bottom: 10px;
     }
 
-    &-our-team-img {
+    &_our_team--img {
         width: 270px;
         height: 260px; 
         margin-top: 50px;
     }
 
-    &-our-team-text {
+    &_our_team--text {
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 3%;
@@ -196,7 +196,7 @@
         margin-top: 30px;
     }
 
-    &-our-team-text2 {
+    &_our_team--text2 {
         font-weight: normal;
         font-size: 16px;
         letter-spacing: 3%;
@@ -208,7 +208,7 @@
     &-nav {
         margin-top: 60px;
     }
-    &-ul {
+    &-list {
         display: flex;
         font-size: 15px;
         justify-content: space-between;
@@ -217,7 +217,7 @@
         padding-right: 30vw;
         flex-wrap: wrap;
     }
-    &-li {
+    &-item {
         list-style: none;
         background-color: var(--white2-color);
         width: 100px;
@@ -235,7 +235,7 @@
     &-link:hover{
         color: var(--white-color);
     }
-    &-li:hover{
+    &-item:hover{
         background-color: var(--blu-color);
     }
     &-container{

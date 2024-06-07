@@ -1,37 +1,37 @@
 .header {
     margin: 15px;
 
-    &-div{
+    &_div{
         display: flex;
         align-items: center;
         justify-content: space-around; 
     }
 
-    &-nav{
+    &_nav{
         display: flex;
         width: 80%;
         justify-content: space-around;
     }
 
-    &-title{
+    &_title{
         text-indent: 30px;
         font-family: 'Raleway', sans-serif;
         color: var(--gray-color);
     }
 
-    &-list{
+    &_list{
         display: flex;
         flex-wrap: wrap;
         list-style: none;
     }
 
-    &-list2{
+    &_list2{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row-reverse;
     }
 
-    &-menu-item{
+    &_menu--item{
         font-family: 'Roboto', sans-serif;
         list-style: none;
         display: flex;
@@ -39,7 +39,7 @@
         align-items: center;
     }
 
-    &-link{
+    &_link{
         text-decoration: none;
         margin-right: 80px;
         color:var(--gray-color);
@@ -63,7 +63,7 @@
 
     }
 
-    &-links{
+    &_links{
         text-decoration: none;
         margin-right: 80px;
         color:var(--gray2-color);
@@ -71,7 +71,7 @@
         transition: all 250ms cubic-bezier(0.4, 0, 0.2,1);
     }
 
-    &-image{
+    &_image{
         width: 50px;
         height: 25px;
         color: var(--gray2-color);
@@ -84,3 +84,6 @@
         color: var(--blu-color);
     }
 }
+
+
+
